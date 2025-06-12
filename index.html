@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DialVerify</title>
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link
+      rel="shortcut icon"
+      href="./favicon/dialverify-favicon.svg"
+      type="image/x-icon"
+    />
+  </head>
+
+  <body>
+    <main>
+      <div class="phone-container">
+        <div class="phone-background">
+          <div class="phone-camera"></div>
+        </div>
+        <h1>DialVerify</h1>
+        <input
+          maxlength="20"
+          type="text"
+          id="user-input"
+          value=""
+          placeholder="Enter a number..."
+        />
+        <div id="results-div"></div>
+        <div class="phone-footer">
+          <button class="btn-styles" id="check-btn">Check</button>
+          <button class="btn-styles" id="clear-btn">Clear</button>
+        </div>
+      </div>
+    </main>
+    <script src="./js/script.js"></script>
+  </body>
+</html>
